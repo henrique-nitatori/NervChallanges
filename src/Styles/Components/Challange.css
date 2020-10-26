@@ -1,0 +1,54 @@
+#challange {
+    position: relative;
+    height: 190px;
+    width: 705px;
+    background: var(--primary);
+    border-radius: 20px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 17.5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#challange .challange-header {
+    width: 100%;
+    color: white;
+}
+
+#challange header h3 {
+    font-size: 1.5rem;
+}
+#challange main {
+    color: white;
+}
+#challange main span {
+    margin-top: 20px;
+    font-size: 1.125rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /** número de linhas que você quer exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.challange-difficulty {
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#challange:hover {
+    background: #099873
+}
+a {
+    text-decoration: none
+}

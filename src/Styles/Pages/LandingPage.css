@@ -1,0 +1,60 @@
+#landing-page {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+#landing-page header {
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 64px;
+    padding: 32px;
+    top: 0;
+}
+#landing-page header h2 {
+    font-size: 1.75rem;
+    color: var(--primary);
+}
+#landing-page main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    z-index: 1000;
+}
+
+#landing-page main .nerv-challange-info {
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#landing-page main .nerv-challange-info h4 {
+    font-size: 3.75rem;
+    color: var(--primary);
+    line-height: 70px;
+    width: 460px;
+    font-weight: bold;
+}   
+#landing-page main .nerv-challange-info .button {
+    width: 200px;
+    margin-top: 40px;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 1440px;
+}
+
+#button-custom:hover {
+    background: #0A8A69 !important;
+}

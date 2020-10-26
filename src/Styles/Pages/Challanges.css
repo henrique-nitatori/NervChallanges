@@ -1,0 +1,18 @@
+#challanges {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#challanges .challanges-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --primary:  #06A77D;
+    --secondary: #F1A208;
+    --background: #052F5F;
+}
